@@ -123,7 +123,7 @@ function allDone() {
   //H1 Tittle
   var new_H1 = document.createElement("h1");
   new_H1.setAttribute("id", "new_H1");
-  new_H1.textContent = "All Done!";
+  new_H1.textContent = "The test has finished!";
 
   quizQuestions.appendChild(new_H1);
 
