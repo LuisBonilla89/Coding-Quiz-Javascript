@@ -6,21 +6,19 @@ var questions = [
     answer: "all of the above",
   },
   {
-    question: "How?",
-    choices: ["numbers", "strings", "booleans", "all of the above"],
-    answer: "all of the above",
+    question: "Which company developed Javascript?",
+    choices: ["Netscape", "Bell Labs", "Sun Microsystems", "IBM"],
+    answer: "Netscape",
   },
   {
-    question:
-      "Which of the following is a commonly used practice for debugging and printing messages ?",
-    choices: ["terminal/gitbash", "console.log", "Javacript", "if-statement"],
-    answer: "console.log",
+    question: "Inside which HTML element do we put the JavaScript?",
+    choices: ["<script>", "<meta>", "<head>", "<style>"],
+    answer: "<script>",
   },
   {
-    question:
-      "Which of the following data-type can be stored in a Javascript array?",
-    choices: ["numbers", "strings", "booleans", "all of the above"],
-    answer: "all of the above",
+    question: "The words 'function' and 'var' are know as?",
+    choices: ["keywords", "data types", "declaration statements", "prototypes"],
+    answer: "declaration statements",
   },
   {
     question:
