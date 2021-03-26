@@ -14,13 +14,13 @@ The purpose of this assignment was to create a coding quiz using Javascript, HTM
 
 ## Screenshot
 
-![Built application](Assets/Screenshot.png)
+![Built application](assets/screenshot.png)
 
 ## Deployed Application
 
 Please click on the following link for application:
 
-https://luisbonilla89.github.io/Homework-3-/.
+https://luisbonilla89.github.io/Coding-Quiz-Javascript/.
 
 # Lisence
 
