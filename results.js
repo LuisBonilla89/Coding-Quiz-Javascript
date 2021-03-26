@@ -1,10 +1,10 @@
 var highScore = document.querySelector("#highScores");
-var clean = document.querySelector("#clean");
+var clear = document.querySelector("#clear");
 var retrn = document.querySelector("#retrn");
 
 //The following event will clear previous scores
 clean.addEventListener("click", function () {
-  localStorage.clean();
+  localStorage.clear();
   location.reload();
 });
 // Fetching data from local storage
@@ -19,6 +19,6 @@ if (allScores !== null) {
   }
 }
 // Return to main page
-goBack.addEventListener("click", function () {
+retrn.addEventListener("click", function () {
   window.location.replace("./index.html");
 });

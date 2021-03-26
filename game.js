@@ -37,7 +37,7 @@ var timer = document.querySelector("#play");
 var quizQuestions = document.querySelector("#quizQuestions");
 var wrapper = document.querySelector("#wrapper");
 
-var timeLeft = 41;
+var timeLeft = 61;
 
 var holdInterval = 0;
 
@@ -54,7 +54,7 @@ timer.addEventListener("click", function () {
       if (timeLeft <= 0) {
         clearInterval(holdInterval);
         allDone();
-        actualTime.textContent = "Time up!";
+        actualTime.textContent = "Time is up!";
       }
     }, 1000);
   render(questionIndex);
@@ -103,7 +103,7 @@ function compare(event) {
   if (questionIndex >= questions.length) {
     allDone();
     newDiv.textContent =
-      "This is the end of the Quiz " +
+      "This is the end of the Quiz. " +
       "You have got " +
       score +
       "/" +
